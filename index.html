@@ -1,73 +1,76 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="frontend/libraries/fontawesome/css/all.css">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap" rel="stylesheet">
-
-    <!-- Particles CSS -->
-    <link rel="stylesheet" href="frontend/libraries/particles/css/style.css">
-
-    <!-- My CSS -->
-    <link rel="stylesheet" href="frontend/style/main.css">
-
-    <title>Hello, world!</title>
+    <title>Hello There!</title>
+    <meta name="description" content="My Personal Website">
+    <meta name="author" content="Mochamad Putera Pamungkas" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" media="screen" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
 </head>
 
-<body id="particles-js">
-    <!-- <div id="particles-js"> -->
-    <div>
-        <div class="main-content">
-            <div class="container ml-2">
-                <div class="row">
-                    <div class="col-12">
-                        <h1>Hello World...</h1>
-                        <img src="frontend/libraries/images/avatar-01.png" class="img-fluid img-profil" alt="">
-                        <div class="bio">
-                            <h3>My Name</h3>
-                            <h4>Mochamad Putera Pamungkas</h4>
-                            <p>Front End | Back End</p>
-                        </div>
-                    </div>
-                    <di class="row ml-2">
-                        <div class="col-12">
-                            <div class="link">
-                                <a href="#">
-                                    <i class="fab fa-twitter fa-2x"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-facebook-square fa-2x"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-instagram fa-2x"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-github fa-2x"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </di>
-                </div>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-dk bg-dk fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">mputerapamungkas.co |</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+
+    <!-- Content -->
+    <div class="hero">
+        <div class="container">
+            <img src="images/ProfilPhoto-01.jpg" alt="" class="img-profile">
+            <h3 class="name">Mochamad Putera Pamungkas</h3>
+            <p class="tittle">Programmer | UI/UX Designer</p>
+            <ul class="sosmed">
+                <li><a href="https://www.facebook.com/mputerapamungkas"><i class="fab fa-facebook-square fa-2x"></i></a>
+                </li>
+                <li><a href="https://twitter.com/mputerapamngks"><i class="fab fa-twitter fa-2x"></i></a></li>
+                <li><a href="https://github.com/mputerapamungkas"><i class="fab fa-github fa-2x"></i></a></li>
+                <li><a href="https://www.instagram.com/mputerapamungkas/"><i class="fab fa-instagram fa-2x"></i></a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
-    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
-    <script src="frontend/libraries/fontawesome/js/all.js"></script>
-    <script src="frontend/libraries/particles/js/particles.js"></script>
-    <script src="frontend/libraries/particles/js/app.js"></script>
+
+    <!-- footer -->
+    <div class="container">
+        <footer>
+            <p class="footer-text">Copyright &copy; 2020, Mochamad Putera Pamungkas</p>
+        </footer>
+    </div>
+    <!-- scripts -->
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js//jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
