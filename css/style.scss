@@ -308,3 +308,9 @@ footer {
         color: #fff;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        margin-top: -500px;
+    }
+}
