@@ -290,7 +290,7 @@ footer .footer-text {
   color: #fff;
 }
 
-@media only screen {
+@media only screen and (max-width: 1000px) {
   .hero {
     margin-top: -500px;
   }
