@@ -187,42 +187,6 @@ canvas {
 }
 
 /* ---- stats.js ---- */
-.count-particles {
-  background: #000022;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13e8e9;
-  font-size: 0.8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-}
-
-.js-count-particles {
-  font-size: 1.1em;
-}
-
-#stats,
-.count-particles {
-  -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-
-#stats {
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
-}
-
-.count-particles {
-  border-radius: 0 0 3px 3px;
-}
-
 /* ---- particles.js container ---- */
 #particles-js {
   width: 100%;
@@ -239,54 +203,73 @@ canvas {
   background-color: #222222;
 }
 
-/* Profile*/
 .hero {
-  width: 100%;
-  text-align: center;
-  position: relative;
-  top: 0;
+  width: 500px;
+  height: 350px;
+  margin: auto;
+  position: absolute;
+  top: 25%;
   left: 0;
   right: 0;
-  bottom: 0;
-  margin: -420px auto;
+  padding: 50px;
+  text-align: center;
 }
 
 .hero .img-profile {
   width: 150px;
   height: 150px;
+  background-image: url("../images/profile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
   border-radius: 100%;
-  margin-bottom: 10px;
+}
+
+.hero .name,
+.hero .tittle {
+  color: #fff;
+  font-family: "Montserrat";
 }
 
 .hero .name {
-  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 .hero .tittle {
-  color: #fff;
-  font-size: 20px;
-  margin-top: -10px;
+  font-size: 17px;
+  margin-top: -4px;
 }
 
-.hero li {
+.hero .sosmed {
+  margin-top: 10px;
+}
+
+.hero .sosmed li {
   display: inline;
-  margin-left: 10px;
-  margin-right: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
 }
 
-.hero li i {
-  color: #fff;
+.hero .sosmed .fw-color {
+  color: #ffff;
 }
 
 /* footer */
 footer {
-  margin: auto;
-  text-align: center;
-  position: relative;
-  top: 470px;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 90%;
+  left: 0;
+  right: 0;
+  padding: 10px;
 }
 
 footer .footer-text {
   color: #fff;
+  text-align: center;
+  font-size: 17px;
 }
 /*# sourceMappingURL=style.css.map */

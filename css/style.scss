@@ -191,41 +191,21 @@ canvas {
 
 /* ---- stats.js ---- */
 
-.count-particles {
-  background: #000022;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13e8e9;
-  font-size: 0.8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-}
+// #stats,
+// .count-particles {
+//   -webkit-user-select: none;
+//   margin-top: 5px;
+//   margin-left: 5px;
+// }
 
-.js-count-particles {
-  font-size: 1.1em;
-}
+// #stats {
+//   border-radius: 3px 3px 0 0;
+//   overflow: hidden;
+// }
 
-#stats,
-.count-particles {
-  -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-
-#stats {
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
-}
-
-.count-particles {
-  border-radius: 0 0 3px 3px;
-}
+// .count-particles {
+//   border-radius: 0 0 3px 3px;
+// }
 
 /* ---- particles.js container ---- */
 
@@ -245,63 +225,73 @@ canvas {
   background-color: #222222;
 }
 
-// .nav-link-cst {
-//     color: #fff;
-// }
-
-// .nav-link a:hover,
-// .nav-link a:active {
-//     color: #fd834b !important;
-// }
-
-/* Profile*/
 .hero {
-  width: 100%;
-  text-align: center;
-  position: relative;
-  top: 0;
+  width: 500px;
+  height: 350px;
+  // background-color: #ffff;
+  margin: auto;
+  position: absolute;
+  top: 25%;
   left: 0;
   right: 0;
-  bottom: 0;
-  margin: -420px auto;
+  padding: 50px;
+  text-align: center;
 
   .img-profile {
     width: 150px;
     height: 150px;
+    background-image: url("../images/profile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
     border-radius: 100%;
-    margin-bottom: 10px;
+  }
+
+  .name,
+  .tittle {
+    color: #fff;
+    font-family: "Montserrat";
   }
 
   .name {
-    color: #fff;
+    font-size: 20px;
+    margin-top: 10px
   }
 
   .tittle {
-    color: #fff;
-    font-size: 20px;
-    margin-top: -10px;
+    font-size: 17px;
+    margin-top: -4px;
   }
 
-  li {
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+  .sosmed {
+    margin-top: 10px;
 
-  li i {
-    color: #fff;
+    li {
+      display: inline;
+      box-sizing: border-box;
+      padding: 10px;
+    }
+
+    .fw-color {
+      color: #ffff;
+    }
   }
 }
 
 /* footer */
 
 footer {
-  margin: auto;
-  text-align: center;
-  position: relative;
-  top: 470px;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 90%;
+  left: 0;
+  right: 0;
+  padding: 10px;
 
   .footer-text {
     color: #fff;
+    text-align: center;
+    font-size: 17px;
   }
 }
