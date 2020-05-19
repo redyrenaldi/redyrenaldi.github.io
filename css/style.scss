@@ -342,18 +342,18 @@ footer {
   overflow: hidden;
   white-space: nowrap;
   width: 10.9em;
-  -webkit-animation: type 2s steps(17), blink 1s linear infinite;
+  animation: type 2s steps(17), blink 1s linear infinite;
   border-right: .1em solid;
 }
 
 .text-typing:nth-child(2) {
   width: 8.5em;
-  -webkit-animation: type2 4s steps(19), blink 1s linear infinite;
+  animation: type2 4s steps(19), blink 1s linear infinite;
 }
 
 .text-typing:nth-shild(3) {
   width: 8.5em;
-  -webkit-animation: type2 8s steps(19), blink 1s linear infinite;
+  animation: type2 8s steps(19), blink 1s linear infinite;
 }
 
 @keyframes type {
