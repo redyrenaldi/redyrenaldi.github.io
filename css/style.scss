@@ -342,16 +342,40 @@ footer {
   overflow: hidden;
   white-space: nowrap;
   width: 10.9em;
-  -webkit-animation: revtype 2s steps(17), blink 1s linear infinite;
+  -webkit-animation: type 2s steps(17), blink 1s linear infinite;
   border-right: .1em solid;
 }
 
-@keyframes revtype {
-  0% {
+.text-typing:nth-child(2) {
+  width: 8.5em;
+  -webkit-animation: type2 4s steps(19), blink 1s linear infinite;
+}
+
+.text-typing:nth-shild(3) {
+  width: 8.5em;
+  -webkit-animation: type2 8s steps(19), blink 1s linear infinite;
+}
+
+@keyframes type {
+  from {
     width: 0;
   }
 }
 
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 0;
+  }
+
+  100% {
+    width: 100;
+  }
+
+}
 
 @keyframes blink {
 
