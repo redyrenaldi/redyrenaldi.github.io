@@ -326,4 +326,48 @@ footer .footer-text {
     width: 100%;
   }
 }
+
+/* Text typing */
+.text-typing {
+  font-size: 18px;
+  position: relative;
+  top: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 10.9em;
+  -webkit-animation: revtype 2s steps(17), blink 1s linear infinite;
+  border-right: .1em solid;
+}
+
+@-webkit-keyframes revtype {
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes revtype {
+  0% {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
 /*# sourceMappingURL=style.css.map */

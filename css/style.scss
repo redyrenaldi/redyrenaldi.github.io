@@ -333,3 +333,34 @@ footer {
     width: 100%;
   }
 }
+
+/* Text typing */
+.text-typing {
+  font-size: 18px;
+  position: relative;
+  top: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 10.9em;
+  -webkit-animation: revtype 2s steps(17), blink 1s linear infinite;
+  border-right: .1em solid;
+}
+
+@keyframes revtype {
+  0% {
+    width: 0;
+  }
+}
+
+
+@keyframes blink {
+
+  0%,
+  100% {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: #fff;
+  }
+}
