@@ -193,8 +193,8 @@ canvas {
   top: 48px;
   left: 0;
   width: 80px;
-  color: #13E8E9;
-  font-size: .8em;
+  color: #13e8e9;
+  font-size: 0.8em;
   text-align: left;
   text-indent: 4px;
   line-height: 14px;
@@ -284,7 +284,7 @@ canvas {
 .hero .sosmed li {
   display: inline;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   padding: 10px;
 }
 
@@ -328,92 +328,5 @@ footer .footer-text {
 }
 
 /* Text typing */
-.text-typing {
-  font-size: 18px;
-  position: relative;
-  top: 5px;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 10.9em;
-  -webkit-animation: type 2s steps(17), blink 1s linear infinite;
-  animation: type 2s steps(17), blink 1s linear infinite;
-  border-right: .1em solid;
-}
-
-.text-typing:nth-child(2) {
-  width: 8.5em;
-  -webkit-animation: type2 4s steps(19), blink 1s linear infinite;
-  animation: type2 4s steps(19), blink 1s linear infinite;
-}
-
-.text-typing:nth-child(3) {
-  width: 8.5em;
-  -webkit-animation: type2 8s steps(19), blink 1s linear infinite;
-  animation: type2 8s steps(19), blink 1s linear infinite;
-}
-
-@-webkit-keyframes type {
-  from {
-    width: 0;
-  }
-}
-
-@keyframes type {
-  from {
-    width: 0;
-  }
-}
-
-@-webkit-keyframes type2 {
-  0% {
-    width: 0;
-  }
-
-  50% {
-    width: 0;
-  }
-
-  100% {
-    width: 100;
-  }
-}
-
-@keyframes type2 {
-  0% {
-    width: 0;
-  }
-
-  50% {
-    width: 0;
-  }
-
-  100% {
-    width: 100;
-  }
-}
-
-@-webkit-keyframes blink {
-
-  0%,
-  100% {
-    border-color: transparent;
-  }
-
-  50% {
-    border-color: #fff;
-  }
-}
-
-@keyframes blink {
-
-  0%,
-  100% {
-    border-color: transparent;
-  }
-
-  50% {
-    border-color: #fff;
-  }
-}
-
+/* disable text typing */
 /*# sourceMappingURL=style.css.map */
